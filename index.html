@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">My portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"> <a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"> <a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"> <a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"> <a href="#project" class="nav__link">project</a></li>
+                        <li class="nav__item"> <a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            
+<section class="home section" id="home">
+    <div class="home__container">
+        <div class="home__content">
+            <h1 class="home__title">Hi, I'm <span>Shreya</span></h1>
+            <h3 class="home__subtitle">Computer Science Engineering Student </h3>
+            <p class="home__text">
+                I love coding and creating web applications that make life easier. From idea to implementation, I focus on building projects that are responsive, user-friendly, and impactful.
+            </p>
+            <div class="home__buttons">
+                <a href="#project" class="home__button">View Projects</a>
+                <a href="#contact" class="home__button home__button--secondary">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="home__img-container">
+            <img src="https://img.freepik.com/premium-vector/creative-girl-student-idea-avatar-vector-illustration_1310786-18664.jpg?w=2000" 
+                 alt="Profile Image" class="home__img">
+        </div>
+    </div>
+</section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="https://as1.ftcdn.net/v2/jpg/02/74/17/52/1000_F_274175227_DLr6O6ivYki8npe8n5kdL5aKcvZKffji.jpg"  alt="profile">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Shreya Suryawanshi</h2>
+                        <i><span class="about__profession">Computer Science Engineering Student </span></i>
+                        <p class="about__text">I am a Computer Science Engineering student with a 
+                        keen interest in software development and problem-solving. I have knowledge of 
+                        HTML, CSS, JavaScript, and Java. I enjoy building responsive websites and learning 
+                        modern technologies. I am looking for opportunities to grow and gain practical experience.
+                        </p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/shreya-suryawanshi-778b27371" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/suryawanshishreya2006" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <!-- Centered container like contact -->
+    <div class="skills__container bd-grid">
+
+        <!-- Programming Languages -->
+        <h3 class="skills__subtitle">Programming Languages</h3>
+        <div class="skill-items">
+            <div class="skill-card">Java</div>
+            <div class="skill-card">C</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Python</div>
+        </div>
+
+        <!-- Tools & Technologies -->
+        <h3 class="skills__subtitle">Tools & Technologies</h3>
+        <div class="skill-items">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">MySQL</div>
+            <div class="skill-card">VS Code</div>
+            <div class="skill-card">GitHub</div>
+        </div>
+
+        <!-- Coding Platforms -->
+        <h3 class="skills__subtitle">Coding Platforms</h3>
+        <div class="skill-items">
+            <div class="skill-card">CodeChef</div>
+            <div class="skill-card">GeeksforGeeks</div>
+            <div class="skill-card">HackerRank</div>
+        </div>
+
+        <!-- Languages -->
+        <h3 class="skills__subtitle">Languages</h3>
+        <div class="skill-items">
+            <div class="skill-card">English</div>
+            <div class="skill-card">Hindi</div>
+            <div class="skill-card">Marathi (Native)</div>
+            <div class="skill-card">Japanese (Beginner)</div>
+        </div>
+
+    </div>
+</section>
+
+            <!--===== project =====-->
+         <!-- PROJECTS SECTION -->
+          <section class="project section" id="project">
+     <h2 class="section-title">Projects</h2>
+
+<div class="project__grid">
+
+    <!-- Project 1: Online Voting System -->
+    <div class="project__card">
+        <img src="https://static.vecteezy.com/system/resources/previews/011/263/901/original/vote-voting-and-election-concept-on-virtual-screen-polling-ballot-online-elections-electronic-voting-technology-e-ballot-check-mark-closeup-finger-about-to-press-a-button-illustration-vector.jpg" 
+             alt="Online Voting System" class="project__img">
+        
+        
+            <h4 class="project-title">Online Voting System</h4>
+            <p class="project-desc">
+                A secure and transparent online voting platform for organizations, allowing real-time vote tracking and results.
+            </p>
+            <ul class="project-details">
+                <li><strong>Technologies:</strong> Java, MySQL, HTML, CSS</li>
+                
+            </ul>
+       
+    </div>
+    
+
+    <!-- Project 2: Carbon Footprint Calculator -->
+    <div class="project__card">
+        <img src="https://img.freepik.com/premium-photo/co2-emission-reduction-concept-hand-with-environmental-icons-global-warming-sustainable-developme_1143533-2383.jpg" 
+             alt="Carbon Footprint Calculator" class="project__img">
+        
+        
+            <h4 class="project-title">Carbon Footprint Calculator</h4>
+            <p class="project-desc">
+                An interactive web application to calculate individual or organizational carbon emissions and suggest ways to reduce environmental impact.
+            </p>
+            <ul class="project-details">
+                <li><strong>Technologies:</strong> JavaScript, HTML, CSS</li>
+                
+            </ul>
+        
+    </div>
+
+</div>
+</section>
+            <!--===== CONTACT =====-->
+           <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <!-- Left Column: Contact Boxes -->
+        <div class="contact__info">
+            <div class="contact-box">
+                <h3 class="contact__subtitle">EMAIL</h3>
+                <span class="contact__text"><a href="mailto:2403047@ritindia.edu">2403047@ritindia.edu</a></span>
+            </div>
+
+            <div class="contact-box">
+                <h3 class="contact__subtitle">PHONE</h3>
+                <span class="contact__text"><a href="tel:+919529518007">+91 9529518007</a></span>
+            </div>
+
+            <div class="contact-box">
+                <h3 class="contact__subtitle">ADDRESS</h3>
+                <span class="contact__text">A/P Ishwarpur Tal:Walwa Dist:Sangli</span>
+            </div>
+        </div>
+         
+         
+         
+        <!-- Right Column: Contact Form -->
+       
+        <form action="" class="contact__form">
+          <p><i>Write Your Message here</i></p>
+            <div class="contact__inputs">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+            </div>
+
+            <textarea placeholder="Message" class="contact__input contact__message"></textarea>
+
+            <input type="submit" value="Submit" class="contact__button">
+        </form>
+    </div>
+</section>
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Shreya Suryawanshi</h2>
+                    <p class="footer__text">I'm Shreya Suryawanshi and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
